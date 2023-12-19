@@ -4,5 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     burgerMenu.addEventListener('click', function () {
         navList.classList.toggle('show');
+        burgerMenu.classList.toggle('show');
     });
 });

@@ -15,66 +15,115 @@
   </head>
   <body>
     <header class="header">
-      <a href="#" class="logo">
-        <img src="./img/eye.png" alt="logo" width="50px">
-        Таро
-      </a>
-      <nav class="navigation">
-        <ul class="navigation-list">
-          <li class="navigation-item"><a href="#hero">Home</a></li>
-          <li class="navigation-item"><a href="#introduction">Introduction</a></li>
-          <li class="navigation-item"><a href="#">Services</a></li>
-          <li class="navigation-item"><a href="#">About</a></li>
-          <li class="navigation-item"><a href="#">Contacts</a></li>
-        </ul>
-        <div class="burger-menu">&#9776;</div>
-      </nav>
+      <div class="header-container">
+        <a href="#" class="logo">
+          <img src="./img/eye.png" alt="logo" width="50px" />
+          Таро
+        </a>
+        <nav class="navigation">
+          <ul class="navigation-list">
+            <li class="navigation-item">
+              <a href="#introduction">Introduction</a>
+            </li>
+            <li class="navigation-item"><a href="#services">Services</a></li>
+            <li class="navigation-item"><a href="#about">About</a></li>
+            <li class="navigation-item"><a href="#conyacts">Contacts</a></li>
+          </ul>
+          <div class="burger-menu">&#9776;</div>
+        </nav>
+      </div>
     </header>
     <main class="main">
       <section class="hero" id="hero">
         <p class="hero-text">Добро пожаловать!</p>
         <h1 class="hero-title">Карты Таро</h1>
       </section>
-      <section class="introduction" id="introduction">
-        <p class="introduction-text">
-          Начните увлекательное погружение в мир Таро, где каждая карта -
-          маленькое чудо. Здесь магия становится реальностью.
-        </p>
-      </section>
-      <section class="services">
-        <h2 class="services-title">Наши Услуги</h2>
-        <ul class="services-list">
-          <li class="services-item">
-            <h3 class="services-name">Онлайн-гадания</h3>
-            <p class="services-text">Расшифровка посланий карт и ответы на ваши вопросы</p>
-          </li>
-          <li class="services-item">
-            <h3 class="services-name">Обучение</h3>
-            <p class="services-text">
-              Мы предлагаем курсы и мастер-классы по Таро для тех, кто стремится
-              углубиться в этом искусстве.
+      <div class="back">
+        <section class="introduction" id="introduction">
+          <div class="introduction-container">
+            <p class="introduction-text">
+              Начните увлекательное погружение в мир Таро, где каждая карта -
+              маленькое чудо. Здесь магия становится реальностью.
             </p>
+            <img class="introduction-img" src="./img/card.jpg" alt="card" />
+          </div>
+        </section>
+        <section class="services" id="services">
+          <h2 class="services-title">Наши Услуги</h2>
+          <ul class="services-list">
+            <li class="services-item">
+              <img class="services-img" src="./img/divination.jpg" alt="divination" />
+              <div class="group">
+                <h3 class="services-name">Онлайн-гадания</h3>
+                <p class="services-text">
+                  Расшифровка посланий карт и ответы на ваши вопросы
+                </p>
+              </div>
+            </li>
+            <li class="services-item">
+              <img class="services-img" src="./img/learn.jpg" alt="divination" />
+              <div class="services-group">
+                <h3 class="services-name">Обучение</h3>
+                <p class="services-text">
+                  Мы предлагаем курсы и мастер-классы по Таро для тех, кто
+                  стремится углубиться в этом искусстве.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="about" id="about">
+          <p class="about-text">
+            Таро, наше архетипическое зеркало, вдумчиво отражает ваши внутренние
+            миры, помогая понимать себя и мир вокруг нас.
+          </p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer" id="conyacts">
+      <div class="footer-container">
+        <a href="#" class="logo">
+          <img src="./img/eye.png" alt="logo" width="50px" />
+          Таро
+        </a>
+        <ul class="social">
+          <li class="social-item">
+            <a href="" class="social-container">
+              <svg class="social-icon">
+                <use href="./img/symbol-defs.svg#icon-mail"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="" class="social-container">
+              <svg class="social-icon">
+                <use href="./img/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="" class="social-container">
+              <svg class="social-icon">
+                <use href="./img/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="" class="social-container">
+              <svg class="social-icon">
+                <use href="./img/symbol-defs.svg#icon-telegram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="" class="social-container">
+              <svg class="social-icon">
+                <use href="./img/symbol-defs.svg#icon-tiktok"></use>
+              </svg>
+            </a>
           </li>
         </ul>
-      </section>
-      <section class="about">
-        <p class="about-text">
-          Таро, наше архетипическое зеркало, вдумчиво отражает ваши внутренние миры, помогая понимать себя и мир вокруг нас.
-        </p>
-      </section>
-    </main>
-    <footer class="footer container">
-      <a href="#" class="logo">
-        <img src="./img/eye.png" alt="logo" width="50px">
-        Таро
-      </a>
-      <ul class="social">
-        <li class="social-item">f</li>
-        <li class="social-item">i</li>
-        <li class="social-item">t</li>
-        <li class="social-item">m</li>
-        <li class="social-item">t</li>
-      </ul>
+      </div>
     </footer>
     <script src="./js/app.js"></script>
   </body>
